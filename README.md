@@ -72,19 +72,14 @@ GSBDPI/
 │── KYK_BASLAT.cmd                 # Otomatik üretilen kişisel yurt başlatıcınız
 │── 0_gsb_kyk_yeni_mod.cmd         # Yeni KYK Hibrit Modu (--kyk)
 │── 1_gsb_kyk_discord.cmd          # Mod -5 TTL 5 Discord başlatıcısı
-│── GSB_KYK_REHBER.md              # Ayrıntılı Türkçe rehber
+│── 2_gsb_kyk_tum_siteler.cmd      # Tüm engelli siteler için genel başlatıcı
 │── blacklist_kyk.txt              # Engelli alan adları listesi
 │── service_install_gsb_kyk.cmd    # Windows arka plan hizmeti kurucu
 │── service_remove_gsb_kyk.cmd     # Windows arka plan hizmeti kaldırıcı
-│── tools/
-│   └── kyk_test.c                 # Test aracının C kaynak kodları
-│── goodbyedpi_src/                # Şeffaf DoH modülü eklenmiş GoodbyeDPI kaynak kodları
-│   ├── src/
-│   │   ├── dohproxy.c / .h        # WinHTTP tabanlı şeffaf DNS-over-HTTPS motoru
-│   │   └── goodbyedpi.c           # Modifiye edilmiş GoodbyeDPI ana motoru
-│   └── build_msvc.cmd             # Visual Studio MSVC derleme betiği
-│── x86_64/                        # 64-bit hazır çalıştırılabilir dosyalar ve WinDivert sürücüsü
-└── x86/                           # 32-bit hazır çalıştırılabilir dosyalar
+│── tools/                         # Test aracının C kaynak kodları ve derleme betiği
+│── goodbyedpi_src/                # Şeffaf DoH modüllü GoodbyeDPI kaynak kodları ve patch
+│── x86_64/                        # 64-bit hazır çalıştırılabilir motor ve WinDivert sürücüsü
+└── x86/                           # 32-bit hazır çalıştırılabilir motor ve WinDivert sürücüsü
 ```
 
 ---

@@ -16,6 +16,6 @@ echo.
 echo NOT: Bu pencereyi kapatirsaniz GoodbyeDPI sonlandirilir.
 echo.
 
-start "" "%~sdp0%_arch%\goodbyedpi.exe" -5 --set-ttl 5 -q --max-payload 1200
+start "" "%~sdp0%_arch%\goodbyedpi.exe" -5 --set-ttl 5 -q --doh --max-payload 1200
 
 POPD
