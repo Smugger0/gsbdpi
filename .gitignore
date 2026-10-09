@@ -1,0 +1,19 @@
+# Build intermediates and temporary files
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.old
+*.tmp
+*.log
+gcm-diagnose.log
+
+# IDE & Editor files
+.vs/
+.vscode/
+*.user
+*.suo
+
+# OS files
+Thumbs.db
+Desktop.ini

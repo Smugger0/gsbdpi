@@ -1,0 +1,30 @@
+# GSB / KYK Yurt İnterneti İçin Kara Liste (Blacklist)
+# Yalnızca bu listedeki alan adları için DPI atlatma işlemi yapılır.
+# Yurt giriş sayfası (wifi.gsb.gov.tr), e-devlet, bankalar ve oyunlar bu sayede etkilenmez.
+
+# Discord ve Bileşenleri
+discord.com
+discord.gg
+discordapp.com
+discordapp.net
+discord.media
+discordstatus.com
+gateway.discord.gg
+cdn.discordapp.com
+media.discordapp.net
+images-ext-1.discordapp.net
+images-ext-2.discordapp.net
+router.discordapp.net
+dl.discordapp.net
+status.discordapp.com
+support.discord.com
+
+# Türkiye'de Sık Engellenen Diğer Platformlar
+pastebin.com
+wattpad.com
+roblox.com
+rbxcdn.com
+imgur.com
+i.imgur.com
+proton.me
+protonmail.com
